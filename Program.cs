@@ -5,7 +5,7 @@ using System.IO;
 
 class Program
 {
-    private static readonly string apiKey = "API";
+    private static readonly string apiKey = "KEY";
     private static readonly string apiUrl = "https://api.perplexity.ai/chat/completions";
     private static readonly string defaultModel = "sonar";
 
@@ -14,7 +14,7 @@ class Program
 
     static async Task Main(string[] args)
     {
-        Console.Title = "Chat AI Console";
+        Console.Title = "Federico Furlani";
         Console.OutputEncoding = System.Text.Encoding.UTF8;
         Console.Clear();
 
